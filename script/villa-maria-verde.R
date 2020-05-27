@@ -56,7 +56,7 @@ ggplot() +
   geom_sf(data = radios_c, size = 0.3) +
   geom_sf(data = radios, fill = NA) +
   geom_sf(data = espacios_verdes, size = 0.3) +
-  geom_sf(data = espacios_verdes_c, color = 'lightgreen')
+  geom_sf(data = espacios_verdes_c, color = "lightgreen")
 
 st_nearest_feature(radios_c, espacios_verdes_c)
 
